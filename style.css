@@ -1,0 +1,662 @@
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar{
+    background: darkblue;
+}
+
+
+
+#one a{
+    border-bottom: 2px transparent;
+    color: white;
+}
+
+#one a:hover{
+    border-bottom: 2px solid white;
+
+}
+#one  .dropdown-menu a:hover{
+    color: blue;
+
+}
+#one .dropdown-menu a{
+    color: black;
+    margin-left: 5%;
+}
+
+#one .dropdown-menu{
+    width: 300px;
+}
+
+#one .signin{
+    background: orangered;
+    color: white;
+    height: 51.46px;
+    width: 200px ;
+}
+
+
+.img-1{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(image2.jpg);
+}
+.img-2{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(image3.jpg);
+}
+
+.img-3{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(image4.jpg);
+}
+.home_content{
+    width: 100%;
+    height: 90vh;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#home{
+    position: relative;
+}
+
+#home .home_content h6{
+    color: white !important;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#home h1{
+    color: white;
+    font-weight: 800;
+    font-size:70px;
+}
+
+#home .signin{
+    background-color: rgb(240, 140,47);
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-top: 5px;
+}
+
+#home .signin:hover{
+    background-color: rgb(255 108 108);
+}
+
+.text_home{
+    text-align: center;
+}
+
+#home span{
+    color: rgb(240, 140,47);
+    margin-bottom: 5px;
+}
+
+.search{
+    height: 10vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.search_content{
+    width: 85%;
+    height: 180px;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                -1px -1px 5px rgba(0,0,0,.05);;
+}
+
+@media screen and (max-width:992px){
+
+    .search_content{
+        width: 85%;
+        height: 245px;
+        position: absolute;
+        bottom: -50px;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 2px 2px 5px rgba(0,0,0,.2),
+                    -1px -1px 5px rgba(0,0,0,.05);;
+    }
+    #home h1{
+        color: white;
+        font-weight: 800;
+        font-size:40px;
+    }
+    #home .signin{
+        background-color: rgb(240, 140,47);
+        width: 130px;
+        height: 35px;
+        color: white;
+        margin-top: 5px;
+        padding: 1px;
+    }
+
+    #home h4{
+        font-size: 19px;
+    }   
+}
+@media screen and (max-width:576px){
+
+    
+    #home h1{
+        color: white;
+        font-weight: 700;
+        font-size:27px;
+    }
+    #home .signin{
+        background-color: rgb(240, 140,47);
+        width: 125px;
+        height: 30px;
+        color: white;
+        margin-top: 5px;
+        padding: 0px;
+    }
+
+    #home h4{
+        font-size: 15px;
+    }  
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+#about h4{
+    margin-top: 10%;
+    margin-left: 20px;
+    color: rgb(240, 140,47);
+}
+
+#about h2{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#about p{
+   
+    font-size: 15px;
+    
+}
+#about h6{
+    margin-left: 20px;
+
+}
+#about span{
+    color:skyblue
+}
+
+.icons{
+    width: 30px !important;
+    height: 30px !important;
+    }
+
+.two{
+     margin-top: 6px;
+     font-size: 30px;
+     font-weight: 700;
+    }
+
+    .three{
+        margin-top: 0px;
+    }
+
+    #about .signin{
+        background-color: rgb(240, 140,47);
+        width: 200px;
+        height: 40px;
+        color: white;
+        margin-top: 5px;
+    }
+    
+    #about .signin:hover{
+        background-color: rgb(255 108 108);
+    }
+    .image_container{
+        width: 100%;
+        height: 300px;
+        cursor: pointer;
+        text-align: end;
+    }
+.hotel_image1{
+    display: inline-block;
+    width: 75%;
+    height: 80%;
+    background-color: yellow;
+    background-image: url(lux1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 17%;
+}
+
+.hotel_image2{
+    display: block;
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    background-image: url(lux4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center !important;
+}
+.hotel_image3{
+    display: inline-block;
+    width: 60%;
+    height: 60%;
+    background-color: palegreen;
+    background-image: url(lux3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hotel_image4{
+    display:block;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(98, 0, 255);
+    background-image: url(lux2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width:992px){
+    #about h4{
+        margin-top: 15%;
+        margin-left: 20px;
+        color: rgb(240, 140,47);
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    #about h4{
+        margin-top: 20%;
+        margin-left: 20px;
+        color: rgb(240, 140,47);
+    }
+    .image_container{
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+        text-align: end;
+    }
+    .hotel_image1{
+        display: inline-block;
+        width: 85%;
+        height: 80%;
+        background-color: yellow;
+        background-image: url(lux1.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 17%;
+    }
+    .hotel_image2{
+        display: block;
+        width: 100%;
+        height: 95%;
+        background-color: black;
+        background-image: url(lux4.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center !important;
+    }
+    .hotel_image3{
+        display: inline-block;
+        width: 80%;
+        height: 50%;
+        background-color: palegreen;
+        background-image: url(lux3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .hotel_image4{
+        display:block;
+        width: 90%;
+        height: 70%;
+        background-color: rgb(98, 0, 255);
+        background-image: url(lux2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+}
+
+
+#services h1{
+    color: rgb(240, 140,47);
+}
+
+#services .card:hover{
+    background-color: lightblue;
+}
+.destination{
+    width: 100%;
+    height: 220px;
+    margin: 11px 0px;
+    border-radius: 4px;
+    position: relative;
+}
+.desti-image1
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.desti-image2
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti2.avif);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image3
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image4
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image5
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image6
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti6.png);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image7
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image8
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image9
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.desti-image10
+{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.1)),url(desti10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.text_content{
+    position: absolute;
+    bottom: 16px;
+    left: 24px;
+    color: white;
+    transition: 1s;
+}
+.para {
+ opacity: 0;
+ transition: 1s;
+}
+span{
+    transition: 1s;
+}
+
+.text_content:hover .para{
+     opacity: 1;
+     transition: 1s;
+}
+.text_content:hover span{
+    opacity: 0;
+    transition: 1s;
+}
+
+#packages .card img{
+    height: 200px;
+}
+
+#packages h1{
+   color:  rgb(240, 140,47);
+   margin-top: 10px;
+}
+
+
+#packages .signin{
+    background-color: rgb(240, 140,47);
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-top: 5px;
+}
+
+#blog .signin{
+    background-color: rgb(240, 140,47);
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-top: 5px;
+}
+
+#blog .card img{
+    height: 200px;
+    margin-top: 25%;
+}
+
+
+
+#blog h2{
+    color: rgb(240, 140,47);
+    margin-top: 5%;
+}
+#blog a{
+    color: rgb(240, 140,47);
+    
+}
+#blog span{
+    color: rgb(240, 140,47);
+    font-weight: 900;
+}
+
+
+.contact_img{
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
+.cimage1{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)),url(contact2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact h3{
+    color: white;
+    margin-top:  15%;
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 30px;
+}
+#contact h4{
+    color: white;
+    margin-left: 10%;
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+
+#contact .four{
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 30%;
+     
+}
+
+#contact .signin{
+    background-color: rgb(240, 140,47);
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+#contact .five{
+    margin-left: 30%;
+    color: white;
+    margin-right: 5px;
+}
+
+#contact h1{
+    color: rgb(240, 140,47);
+}
+
+@media screen and (max-width:992px){
+    #contact h3{
+        color: white;
+        margin-top:  15%;
+        margin-left: 10%;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    #contact h4{
+        color: white;
+        margin-left: 10%;
+        font-weight: 700;
+        font-size: 30px;
+       
+    }
+    #contact .four{
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40%;
+   }
+   #contact .five{
+    margin-left: 40%;
+    color: white;
+    margin-right: 7px;
+    font-size: 13px;
+}
+#contact .signin{
+    background-color: rgb(240, 140,47);
+    width: 90px;
+    height: 30px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 1px;
+}
+}
+
+@media screen and (max-width:576px){
+    #contact h3{
+        color: white;
+        margin-top:  7%;
+        margin-left: 10%;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #contact h4{
+        color: white;
+        margin-left: 10%;
+        font-weight: 700;
+        font-size: 20px;
+       
+    }
+    #contact .four{
+        width: 170px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+   }
+   #contact .five{
+    margin-left: 30%;
+    color: white;
+    margin-right: 10px;
+    font-size: 12px;
+}
+#contact .signin{
+    background-color: rgb(240, 140,47);
+    width: 80px;
+    height: 30px;
+    color: white;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 1px;
+}
+}
+
+
+footer h3{
+    color:rgb(240, 140,47);
+    
+}
+footer h4{
+    color:rgb(240, 140,47);
+    
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li:hover{
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+footer li{
+    transition: 1s;
+}
+
+@media screen and (max-width:576px){
+    footer h3{
+        color:rgb(240, 140,47);
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    footer h6{
+        font-size: 15px;
+    }
+    footer li{
+        font-size: 12px;
+    }
+    footer ul{
+        margin-bottom: 30%;
+    }   
+}

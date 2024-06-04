@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK Tours&Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#"><img src="images.png">  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#one">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="one">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="nav-link active" href="#home">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+              <li class="nav-item"><a class="nav-link" href="#packages">PACKAGES</a></li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" >PAGES</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">- Booking</a></li>
+                  <li><a class="dropdown-item" href="#">- About</a></li>
+                  <li><a class="dropdown-item" href="#">- Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">- Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#">- Our Hotels</a></li>
+                  <li><a class="dropdown-item" href="#">- Rooms</a></li>
+                  <li><a class="dropdown-item" href="#">- Contact</a></li>
+                  <li><a class="dropdown-item" href="#">- Offers</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+             </ul>
+             <button class=" signin">Premium version →</button>
+          </div>
+          </div>
+      </nav>
+      <section id="home">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="home_content img-1">
+                    <div class="text_home">
+                <h4 class="text-center text-white"><span>-----</span> LUXURY LIVING <span>-----</span></h4>
+                <h1>TRAVEL TO KERALA </h1>
+                <button class="btn signin  me-3 ">DISCOVER NOW</button>
+                <button class="btn signin    bg-light text-dark">BOOK A ROOM</button>
+                     </div>
+                </div>
+            </div>
+              <div class="carousel-item">
+                <div class="home_content img-2">
+                    <div class="text_home">
+                        <h4 class="text-center text-white"><span>-----</span> LUXURY LIVING <span>-----</span></h4>
+                <h1>HAVE ADVENTURE TO EASIER </h1>
+                <button class="btn signin  me-3 bg-light text-dark">DISCOVER NOW</button>
+                <button class="btn signin ">BOOK A ROOM</button>
+                     </div>
+                </div>
+            
+              </div>
+              <div class="carousel-item">
+                <div class="home_content img-3">
+                    <div class="text_home">
+                        <h4 class="text-center text-white"><span>-----</span> LUXURY LIVING <span>-----</span></h4>
+                <h1>"GOD'S OWN COUNTRY"</h1>
+                <button class="btn signin  me-3 ">DISCOVER NOW</button>
+                <button class="btn signin    bg-light text-dark">BOOK A ROOM</button>
+                     </div>
+                </div>
+               
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="search container">
+            <div class="search_content">
+                <div class="container_fluid">
+                    <div class="search_form">
+                      <form action="">
+                        <div class="container">
+                          <div class="row container_form ">
+                            <div class="col-lg-3 col-6 mt-3">
+                              <label class="form-label">Check In</label> 
+                              <input type="date" class="form-control ">
+                            </div>
+                            <div class="col-lg-3 col-6 mt-3">
+                              <label class="form-label">Check Out</label> 
+                              <input type="date" class="form-control ">
+                            </div>
+                            <div class="col-lg-3 col-9 mt-3">
+                              <label class="form-label">Place</label> 
+                              <input type="text" class="form-control" placeholder="Where to go?">
+                            </div>
+                            <div class="col-lg-3  col-3 mt-3">
+                              <label class="form-label">Rooms</label> 
+                              <select class="form-select" aria-label="Default select example">
+                                <option selected>01</option>
+                                <option value="1">02</option>
+                                <option value="2">03</option>
+                                <option value="3">04</option>
+                                <option value="3">05</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="row container_form">
+                            <div class="col-lg-12 col-12 mt-3 d-flex justify-content-center">
+                              <label class="form-label p-2">Availability</label>
+                              <button class="btn signin  ">Check Availability</button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                          
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 ">
+              <h4>ABOUT US ----- </h4>
+              <h2 >Welcome To</h2>
+              <h2>RK Tours And Travels</h2>
+              <p class="ms-4">Welcome to RK Tours and Travels, your trusted partner in exploring the 
+                India's most captivating destinations. Established in 2004, we have been
+                 dedicated to providing exceptional travel experiences, ensuring every 
+                 journey is memorable and seamless.</p>
+                 <p class="ms-4">At RK Tours and Travels, we believe in the transformative power of
+                   travel. Our team comprises passionate travel experts who are committed 
+                   to crafting personalized itineraries that cater to your unique preferences
+                  and interests. Whether you're seeking a relaxing beach vacation, an
+                   adventurous trek, a cultural exploration, or a luxurious getaway,
+                    we've got you covered.</p>
+              <h6>Manager : <span>Radha Krishnan</span></h6>
+              <div class="services">
+                <div class="row">
+                  <div class="col-lg-3 col-6">
+                    <div class="border  rounded p-1 ms-2 mt-2 two2">
+                      <div class="border rounded text-center py-2 ">
+                        <img  class="icons"  src="house-solid.svg">
+                        <h5 class="two">1600+</h5>
+                        <p class="three">Rooms</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="border  rounded p-1 ms-2 mt-2 two2">
+                      <div class="border  rounded text-center py-2  ">
+                        <img  class="icons"  src="users-solid.svg">
+                        <h5 class="two">2500+</h5>
+                        <p class="three text-center">Clients</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="border rounded p-1 ms-2 mt-2 two2">
+                      <div class="border rounded text-center py-2">
+                        <img  class="icons"  src="hotel-solid.svg">
+                        <h5 class="two">90+</h5>
+                        <p class="three d-flex justify-content-center">Hotels</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="border rounded p-1 ms-2 mt-2 two2">
+                      <div class="border rounded text-center py-2 ">
+                        <img  class="icons"  src="location-dot-solid.svg">
+                        <h5 class="two">10+</h5>
+                        <p class="three">Destinations</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                </div>
+              </div>
+              <button class="btn signin ms-4 mt-4">View Details</button>
+            </div>
+
+          <div class="col-lg-6">
+            <div class="hotel_container">
+              <div class="row p-2">
+                <div class="col-lg-6 col-6">
+                  <div class="image_container mt-5">
+                    <div class="hotel_image1"></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-6">
+                  <div class="image_container mt-5">
+                    <div class="hotel_image2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-2">
+                  <div class="col-lg-6 col-6">
+                    <div class="image_container">
+                      <div class="hotel_image3"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-6">
+                    <div class="image_container">
+                      <div class="hotel_image4"></div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <h1 class="text-center my-5">OUR SERVICES</h1>
+          <div class="row">
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="hotel-solid.svg">
+                   <h6>Apartments</h6> 
+                  </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="utensils-solid.svg">
+                   <h6>Restaurant</h6> 
+                  </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="person-swimming-solid.svg">
+                   <h6>SwimmingPool</h6> 
+                  </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="champagne-glasses-solid.svg">
+                   <h6>Events Party</h6> 
+                  </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 ">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="dumbbell-solid.svg">
+                   <h6>Gym-Yoga</h6> 
+                  </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="plane-departure-solid.svg">
+                   <h6>Booking</h6> 
+                  </div>
+            </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="card m-3">
+                <div class="card-body text-center">
+                  <img  class="icons"  src="fire-solid.svg">
+                   <h6>Camp Fire</h6> 
+                  </div>
+            </div>
+            </div>
+            
+          </div>
+          <h1 class="text-center my-5">POPULAR DESTINATIONS IN KERALA</h1>
+          <p class="text-center">Explore our Travel Destinations website to embark on a journey of discovery and adventure. Immerse yourself in a world of breathtaking landscapes, vibrant cultures, and thrilling experiences. Whether you crave the tranquility of pristine beaches, the charm of historic cities, or the adrenaline rush of outdoor escapades, our curated selection of destinations caters to every traveler's dream. Let our enticing content be your guide as you plan your next unforgettable getaway. Discover, dream, and embark on a voyage with us to create lasting memories in some of the world's most enchanting locales</p>
+          
+          <div class="row">
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image1">
+                  <div class="text_content">
+                    <P class="para">Famous for the tea estates, greenery, winding roads, blanket of mist, and viewpoints, Munnar is a hill station in Kerala, located in the Idukki district.</P>
+                    <span class="price">From: ₹1499/-</span>
+                    <h6>MUNNAR</h6>
+                  </div>
+              </div>
+            </div>
+              <div class="col-lg-3 col-12 col-md-6">
+                <div class="destination desti-image2">
+                  <div class="text_content">
+                    <p class="para">Officially called Alappuzha, Alleppey is known for its network of canals and lagoons with beautiful backwaters and the houseboats offering overnight stays</p>
+                    <span class="price">From: ₹1499/-</span>
+                    <h6>ALLEPPEY</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6">
+                <div class="destination desti-image3">
+                  <div class="text_content">
+                    <p class="para">Lying on the Malabar coast in the southwest of India, Kochi or Cochin is a port city  Known popularly as the Queen of the Arabian Sea</p>
+                    <span class="price">From: ₹1599/-</span>
+                    <h6>KOCHI</h6>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image4">
+                <div class="text_content">
+                  <p class="para">Nestled in the Western Ghats of Kerala, Wayanad in Kerala is famous for its spice plantations and wildlife. Situated at an altitude ranging from 700 to 2100 meters above sea level</p>
+                  <span class="price">From: ₹1599/-</span>
+                  <h6>WAYANAD</h6>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image5">
+                <div class="text_content">
+                  <p class="para">Varkala is a coastal town in the southern part of Kerala known for the unique 15m high 'Northern Cliff' adjacent to the Arabian Sea</p>
+                  <span class="price">From: ₹1699/-</span>
+                  <h6>VARKALA</h6>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image6">
+                <div class="text_content">
+                  <p class="para">Vagamon, also known as Wagamon, is a tranquil hill station nestled near the border of Kottayam and Idukki districts in Kerala. Offering a serene retreat from the hustle and bustle of city life,</p>
+                  <span class="price">From: ₹1799/-</span>
+                  <h6>VAGAMON</h6>
+                </div>
+              </div>
+            </div>
+           
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image7">
+                <div class="text_content">
+                  <p class="para">Famous for its resorts and ayurvedic massage centres, Kovalam is a coastal town located around 13 km from Thiruvananthapuram in Kerala.</p>
+                  <span class="price">From: ₹1999/-</span>
+                  <h6>KOVALAM</h6>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image8">
+                <div class="text_content">
+                  <p class="para">More than 30 million pilgrims visit the temple in Sabarimala annually, making it the largest in India and second largest in the world, after Hajj Pilgrimage of Mecca in Saudi Arabia. </p>
+                  <span class="price">From: ₹2499/-</span>
+                  <h6>SABARIMALA</h6>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image9">
+                <div class="text_content">
+                  <p class="para">The capital city of Kerala, Thiruvananthapuram or Trivandrum, is an appealing blend of a strongly rooted heritage and a nostalgic colonial legacy.</p>
+                  <span class="price">From: ₹2499/-</span>
+                  <h6>TRIVANDRUM</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+              <div class="destination desti-image10">
+                <div class="text_content">
+                  <p class="para">Guruvayur, situated in the Thrissur district of Kerala, is a revered pilgrimage destination renowned for its historic Guruvayur Sri Krishna Temple.</p>
+                  <span class="price">From: ₹1999/-</span>
+                  <h6>GURUVAYUR</h6>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="packages">
+        <div class="container mt-5">
+          <h1 class="text-center ">OUR OTHER BEST SELLING TOUR PACKAGES</h1>
+          <p class="text-center">Tired of browsing through travel agencies and trying to find the best package around your dream destination? Your search ends here! We, along with our 5 Lac happy customers have done all the hard work for you. Browse through the below best-selling packages and book your holiday trip with us now!</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package1.avif" class="card-img" >
+                <div class="card-body ">
+                   <h5>KASHMIR</h5>
+                   <p>Starting at ₹5099/- per person</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package2.webp" class="card-img" >
+                <div class="card-body ">
+                   <h5>ANDAMAN</h5>
+                   <p>Starting at ₹5099/- per person</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package3.jpeg" class="card-img" >
+                <div class="card-body ">
+                   <h5>SPIRITUAL</h5>
+                   <p>Starting at ₹5099/- per person</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 class="text-center ">SUMMER HOLIDAY SPECIAL PLANS</h1>
+          <p class="text-center ">Holidays are evolving faster than ever and so are we. We as a travel and tour agency understand the ever changing and demanding needs of our customers. Hence, we have launched curated holiday packages for you which will suit your best needs</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package4.jpg" class="card-img" >
+                <div class="card-body ">
+                   <h5>GOA</h5>
+                   <p>Starting at ₹2499/- per person</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package5.avif" class="card-img" >
+                <div class="card-body ">
+                   <h5>HIMACHAL</h5>
+                   <p>Starting at ₹6499/- per person</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package6.jpg" class="card-img" >
+                <div class="card-body ">
+                   <h5>KARNATAKA</h5>
+                   <p>Starting at ₹5999/- per person</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 class="text-center ">HONEY-MOON SPECIAL PLANS</h1>
+          <p class="text-center ">Holidays are evolving faster than ever and so are we. We as a travel and tour agency understand the ever changing and demanding needs of our customers. Hence, we have launched curated holiday packages for you which will suit your best needs</p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package7.avif" class="card-img" >
+                <div class="card-body ">
+                   <h5>KULLU-MANALI</h5>
+                   <p>Starting at ₹11999/- per couple</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="package8.jpeg" class="card-img" >
+                <div class="card-body ">
+                   <h5>MALDIVES</h5>
+                   <p>Starting at 14999/- per couple</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card m-3 border-white">
+                <img src="pakage9.jpgd" class="card-img" >
+                <div class="card-body ">
+                   <h5>KODAI-OOTY</h5>
+                   <p>Starting at ₹9999/- per couple</p>
+                   <a href="#" class="btn signin">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog">
+        <div class="container mt-5">
+          <h2 class="text-center">READING CORNER</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="card m-3 border-white">
+                <img src="blog1.jpeg" class="card-img" >
+                <div class="card-body ">
+                   <a href="https://www.kstdc.co/blog/karnataka-top-15-destinations-and-places-to-visit/" class="text-decoration-none">KARNATAKA - TOP 15 DESTINATIONS AND PLACES TO VISIT</a>
+                   <span>____________________________________________________</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card m-3 border-white">
+                <img src="blog2.webp" class="card-img" >
+                <div class="card-body ">
+                   <a href="https://traveltriangle.com/blog/best-tourist-places-in-tamil-nadu/" class="text-decoration-none">BEST TOURIST PLACES IN TAMIL NADU YOU MUST EXPLORE</a>
+                   <span>____________________________________________________</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="card m-3 border-white">
+                <img src="blog3.jpg" class="card-img" >
+                <div class="card-body ">
+                   <a href="https://www.sotc.in/blog/indian-holidays/7-days-in-kashmir-a-heavenly-trip-on-earth" class="text-decoration-none">7 DAYS IN KASHMIR:A HEAVENLY TRIP ON EARTH</a>
+                   <span>____________________________________________________</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <section id="contact">
+      <h1 class="text-center mb-3">CONTACT</h1>
+      <div class="container">
+        <div class="contact_img cimage1">
+                <div class="row">
+                  <div class="col-lg-8 col-md-6 col-sm-6">
+                    <h3>PLAN YOUR HOLIDAYS WITH OUR ASSISTANCE...,</h3>
+                <h4>JUST FILL IN YOUR DETAILS.</h4>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <form>
+                      <div class="mb-3 mt-lg-5 mt-md-4 mt-2">
+                          <input type="text" class="form-control four" placeholder="NAME">
+                      </div>
+                      <div class="mb-3">
+                          <input type="email" class="form-control four" placeholder="EMAIL">
+                      </div>
+                      <div class="mb-3 ">
+                        <input type="mobilenumber" class="form-control four" placeholder="MOBILE">
+                    </div>
+                    <div class="form-check five">
+                      <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        I hereby accept the Privacy Policy and I authorise  to contact me.
+                      </label>
+                    </div>
+                      <div>
+                          <button class="btn signin"> SUBMIT</button>
+                      </div>
+                  </form>
+                  </div>
+                </div>
+                
+        </div>
+        </div>
+      
+     </section>
+      
+     <footer class="bg-dark text-white ">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-6">
+              <h3 class="ms-5 mt-5 six">RK Tours And Travels</h3>
+              <p class="ms-5">+91 9876543210</p>
+              <p class="ms-5">rktours&travels@gmail.com</p>
+              <p class="ms-5">11th floor,tata complex,chennai,tamilnadu</p>
+            </div>
+            <div class="col-lg-3  col-md-6 col-6">
+              <h4 class="mt-5 ms-5">Our Blogs</h4>
+              <h6 class="ms-5">15+ Destinations in karnataka</h6>
+              <p class="ms-5">june 03,2024</p>
+              <p class="ms-5">june 03,2024</p>
+              <h6 class="ms-5">15+ Destinations in TamilNadu</h6>
+              <p class="ms-5">june 03,2024</p>
+            </div>
+            <div class="col-lg-3  col-md-6 col-6">
+              <ul>
+                <h4 class="mt-5 ms-4">links</h4>
+                <li class="ms-5"> > Booking</li>
+                <li class="ms-5"> > About</li>
+                <li class="ms-5"> > Our Team</li>
+                <li class="ms-5"> > Testimonials</li>
+                <li class="ms-5"> > Our Hotels</li>
+                <li class="ms-5"> > Rooms</li>
+                <li class="ms-5"> > Contact</li>
+                <li class="ms-5"> > Offers</li>
+                <li class="ms-5"> > Top Destinations</li>
+              </ul>
+            </div>
+            <div class="col-lg-3  col-md-6 col-6">
+              <ul class="me-3">
+                <h4 class="mt-5 ms-4">Company</h4>
+                <li class="ms-5"> > About Us</li>
+                <li class="ms-5"> > FAQs</li>
+                <li class="ms-5"> > Contact Us</li>
+                <li class="ms-5"> > Privacy Policy</li>
+                <li class="ms-5"> > Support</li>
+                <li class="ms-5"> > Terms & Conditions</li>
+              </ul>
+            </div>
+          </div>
+     </footer>
+    
+</body>
+</html>
